@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.nav-bar >ul{
+    list-style: none;
+    display: flex;
+}
+.home{
+    background-image: url("imgs/bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+        
+}
+
+
+@media screen and (max-width: 480px) {
+    .home {
+            background-image: url("imgs/bg.jpg");
+            background-position: left;
+            background-size: cover;
+         
+
+    }
+    .nav-bar>ul{
+        transform: translateY(30%);        
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;         
+        height: 30vh;
+        background-color: black;
+        color: white;
+
+    }
+
+    
+
+    
+}
