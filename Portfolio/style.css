@@ -2,17 +2,22 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    
 }
-
+/* html, body{
+    background-color: #232322;
+}
+ */
 
 
 
 .home {
-        /* background-image: url("imgs/bg.jpg"); */
+  
         background-color: #232322;
         background-position: left;
         background-size: cover;
         height: 100vh;
+        overflow: hidden;
          
 
 }
@@ -55,8 +60,9 @@ svg{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
+    /* border: 3px solid #ffffff; */
     color: white;
+  
 }  
 
 .micons>a>img{
@@ -69,9 +75,73 @@ svg{
     align-items: center;
     justify-content: space-between;
     width: 40%;
-   margin: auto ;
-   border: 3px solid white;
+    margin: auto ;
+    margin-top: -10%;
+  
 }
     
+h1{
+    font-weight: 80px;
+    font-size: 2em;
+    padding-bottom: 5px;
+}
+    
+.int{
+    font-size: 1em;
+    font-weight: 10;
+}
+.details>img{
+    width: 400px;
+
+}
+.details *{
+    text-align: center;
+    margin-top: 5px;
+
+}
+.details >h3{
+    color: rgba(0,0, 0, 0.5);
+}
+.details >p{
+    padding: 20px;
+    font-size: 1.3em;
+    color: rgba(0,0, 0, 0.5);
+}
+.box{
+    display: flex;
+    background-color: #232322;
+    border-top-right-radius:10px ;
+    border-bottom-right-radius:10px ;
+    align-items: center;
+    justify-content: space-around;
+     
 
     
+}
+
+.bar{
+    padding: 0% 5% 0 0;
+    margin: 4%;
+    margin-left: 4%;
+    margin-right: 4%;
+    box-shadow: 1px 1px 1px #232322;
+    background-color: rgba(0,0, 0, 0.25);
+    color: white;
+}
+.bar1{
+    width: 90%;
+}
+.bar2{
+    width: 85%;
+}
+.bar3{
+    width: 84%;
+}
+.box *{
+  
+    
+}
+
+.box >p{
+    font-size: 1.3em;
+}
