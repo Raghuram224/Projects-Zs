@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    
+ 
 }
 
 
@@ -60,10 +60,12 @@ svg{
   
 }  
 
+
 .micons>a>img{
     height: 20px;
     width: 20px;
 }
+
 .micons{
     display: flex;
     justify-content: center;
@@ -272,4 +274,75 @@ input:nth-child(3):checked ~.cards{
 .content *{
     padding-top: 10px;
 
+}
+
+.cnt >a>img{
+    height: 30px;
+    width: 30px;
+   
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.cnt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 5px;
+}
+.cnt *{
+    padding: 5px;
+
+}
+.form{
+    width: 100%;
+    height:5% ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+   
+  
+}
+.form > div{
+    width: 80%;
+}
+.form>textarea{
+    width: 80%;
+    margin-top: 20px;
+
+}
+.msg{
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+
+.name{
+    height: 35px;
+    width: 100%;
+    display: block;
+    padding-left: 10px;
+}
+.btn{
+    padding: 10px;
+    background-color: #232322;
+    color: #017DEC;
+    border-radius: 15px;
+    margin:10% 35%;    
+    width: 100px;
+    font-size: 1.1rem;
+    
+}
+
+footer{
+    height: 30%;
+    width: 100%;
+    background-color: #017DEC;
+    padding: 20px;
+    text-align: center;
 }
