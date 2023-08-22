@@ -9,21 +9,24 @@
 </head>
 <body>  
 
-    <section class="home">
-       
-            <input type="checkbox" name="menuclc" id="clc" >
+    <section class="home" id="landing">
+           <div class="nav-name">
+            <h2>Raghuram R</h2>
+            
             <label for="clc"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list  svg-menu" viewBox="0 0 16 16">
                 <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
             </svg></label>
-            
+
+           </div>
+            <input type="checkbox" name="menuclc" id="clc" >
             <header class="header">
                 <nav class="nav-bar">
                     <ul>
-                        <li><a class="nav-img"><img src="icons/home.svg" alt=""></a>Home</li>
-                        <li><a class="nav-img"><img src="icons/person.svg" alt=""></a>About</li>
-                        <li><a class="nav-img"><img src="icons/projects.svg" alt=""></a>Projects</li>
-                        <li><a class="nav-img"><img src="icons/feedback.svg" alt=""></a>Reviews</li>
-                        <li><a class="nav-img"><img src="icons/contact.svg" alt=""></a>Contact</li>
+                        <li><a href="#landing" class="nav-img" ><img src="icons/home.svg" alt=""></a>Home</li>
+                        <li><a href="#abou" class="nav-img" ><img src="icons/person.svg" alt=""></a>About</li>
+                        <li><a href="#proj" class="nav-img" ><img src="icons/projects.svg" alt=""></a>Projects</li>
+                        <li><a href="#revi" class="nav-img" ><img src="icons/feedback.svg" alt=""></a>Reviews</li>
+                        <li><a href="#cont"class="nav-img" ><img src="icons/contact.svg" alt=""></a>Contact</li>
                     
                     </ul>
                 </nav>
@@ -48,9 +51,9 @@
 
         </div>
     </section>
-    <section class="About">
+    <section class="About" id="abou">
         <div class="details">
-            <img src="imgs/pfinal.png">
+            <img src="photos/zsid.png">
             <h1>About me</h1>
             <h3>Zoho school's Student</h3>
             <p>I'm a programmer who embarked on my programming journey when I was 17. I've always held onto my determination and never let go of my self-belief. One fine day, I came across information about Zoho, and now I find myself at Zoho – a prospect that truly excites me.</p>
@@ -74,7 +77,8 @@
             </div>
         </div>
     </section>
-    <section class="projects">
+
+    <section class="projects" id="proj">
         <h1>Projects</h1>
         <div class="plist">
             <div class="ptwo pts">                
@@ -126,7 +130,7 @@
         </div>
 
     </section>
-    <section class="reviews">
+    <section class="reviews" id="revi">
         <h2>Reviews</h2>
         <input type="radio" name="slide" class="rbtn" checked  />
         <input type="radio" name="slide" class="rbtn"/>
@@ -160,7 +164,7 @@
         </div>
 
     </section>
-    <section class="contact">
+    <section class="contact" id="cont">
         <h1>Contact Me</h1>
         <div class="cnt">
             <a href="#"><img class="" src="icons/location.svg" alt=""></a>
