@@ -7,26 +7,56 @@
 
 
 .home {
-  
-        background-color: #232322;
-        background-position: left;
-        background-size: cover;
-        height: 100vh;
-        overflow: hidden;
-         
+    
+    height: 100vh;
+   
+        
 
 }
+
+.landing >img{
+    width: 100%;
+    margin-top: 10%;
+}
+.vector{
+
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+
+.nav-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100%;
+    
+}
+.header{
+    /* border: 3px solid black; */
+}
+
+.nav-img>img{
+    width: 25px;
+    margin-bottom: 5px;
+    text-align: center;
+}
 .nav-bar{
-     border: 3px solid #017DEC;
+
+     width: 100%;
+     margin-top: -20%;
+     /* margin-left: 65%; */
 }
 .nav-bar>ul{ 
        
-        display: flex;
-        flex-direction: column;
+        display: flex;        
         justify-content: space-around;
         align-items: center;         
-        height: 30vh;      
-        color: white;
+        height:20vh ; 
+        width: 100%;
+        /* border: 3px solid black;      */
+     
         list-style: none;
 
 }
@@ -39,6 +69,7 @@ svg{
 #clc{
         display: none;
         transition: 1s;
+        
 }
 .header{
     visibility: hidden;
@@ -50,14 +81,12 @@ svg{
        visibility: visible;
     }
 .hometxt{
-    height: 25vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* border: 3px solid #ffffff; */
-    color: white;
-  
+    margin-top: 15%;
+    /* border: 3px solid black;   */
 }  
 
 
@@ -73,7 +102,7 @@ svg{
     justify-content: space-between;
     width: 40%;
     margin: auto ;
-    margin-top: -10%;
+    padding: 1em;
   
 }
     
@@ -96,16 +125,20 @@ h1{
     text-align: center;
     margin-top: 5px;
     overflow: hidden;
+    /* background-color: #232322; */
+    color: white;
 
 }
 .details >h3{
     color: rgba(0,0, 0, 0.5);
+    color: white;
 }
 .details >p{
     padding: 20px;
     font-size: 1.35em;
     color: rgba(0,0, 0, 0.5);
     text-align: justify;
+    color: rgb(255, 255, 255,0.);
 }
 .box{
     display: flex;
@@ -209,47 +242,69 @@ h1{
 }
 .reviews{
     margin:16px ;
-    /* border: 3px solid red; */
+  
     overflow: hidden;
     position: relative;
     padding-bottom: 30px;
     overflow: hidden;
     display: flex;
     flex-direction: column;
-    /* justify-content: center;
-    align-items: center; */
+    /* background-color: #232322; */
+    text-align: center;
+
     
 
+}
+.reviews >h2{
+    text-align: center;
+    font-size: 2rem;
 }
 .rbtn{
     position: absolute;
     /* width: 30px; */
     bottom: 8px;
     left: 8px;
+    transition: 0.5s;
+    display: inline-block;
    
 }
 .reviews input:nth-child(2){    
-    left:30px;
+
+    left: 40%;
+    
 }
 .reviews input:nth-child(3){    
-    left:52px;
+    
+    left: 45%;    
+    margin-left: 10px;
+    
 }
-input:nth-child(1):checked ~.cards{
-    transition: 0.5s;
+.reviews input:nth-child(4){    
+    left: 55%;
+      
+    /* margin-left: 8px; */
+    /* margin-right: 8px; */
+  
 }
-input:nth-child(2):checked ~.cards{
-    transform: translate(-33.3%);
-    transition: 0.5s;
-}
+
+
+/* input:nth-child(2):checked ~.cards{
+    
+} */
 input:nth-child(3):checked ~.cards{
+    transform: translate(-33.3%);
+    
+}
+input:nth-child(4):checked ~.cards{
     transform: translate(-66.6%);
-    transition: 0.5s;
+    
 }
 .cards{
     display: flex;
     justify-content: center;
     align-items: center;
      width: 300%;
+     transition: 0.5s;
 
 }
 .card>img{
