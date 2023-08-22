@@ -9,6 +9,7 @@
 .home {
     
     height: 100vh;
+    overflow: hidden;
    
         
 
@@ -25,12 +26,33 @@
     background-repeat: no-repeat;
 
 }
+.nav-bar li{
+    transform:translatey(-100%);
+    opacity:0;
+    transition:0.2s;
+}
+.nav-bar li:nth-child(4){
+    transition-delay:0.1s;
+}
+.nav-bar li:nth-child(3){
+    transition-delay:0.2s;
+}
+.nav-bar li:nth-child(2){
+    transition-delay:0.3s;
+}
+.nav-bar li:nth-child(1){
+    transition-delay:0.4s;
+}
+.svg-menu{
+    position: relative;
+    z-index:10;
+}
 
 .nav-img{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 100%;
+    /* margin-top: 100%; */
     
 }
 .header{
@@ -43,17 +65,17 @@
     text-align: center;
 }
 .nav-bar{
-
      width: 100%;
-     margin-top: -20%;
+     /* margin-top: -20%; */
      /* margin-left: 65%; */
+     /* background-color: red;; */
 }
 .nav-bar>ul{ 
        
         display: flex;        
         justify-content: space-around;
         align-items: center;         
-        height:20vh ; 
+        /* height:20vh ;  */
         width: 100%;
         /* border: 3px solid black;      */
      
@@ -72,14 +94,18 @@ svg{
         
 }
 .header{
-    visibility: hidden;
+    /* transition: 1s; */
+    /* transform: translateX(100%); */
+    /* visibility: hidden; */
         
 }
 
-#clc:checked ~ .header{      
-       
-       visibility: visible;
+#clc:checked ~ .header ul li{      
+       transform: translatey(0%);
+       opacity:1;
     }
+
+ 
 .hometxt{
     display: flex;
     flex-direction: column;
@@ -99,8 +125,8 @@ svg{
     display: flex;
     justify-content: center;
     align-items: center;
-    justify-content: space-between;
-    width: 40%;
+    justify-content: space-evenly;    
+    width: 80%;
     margin: auto ;
     padding: 1em;
   
@@ -243,10 +269,9 @@ h1{
 .reviews{
     margin:16px ;
   
-    overflow: hidden;
     position: relative;
     padding-bottom: 30px;
-    overflow: hidden;
+    /* overflow: hidden; */
     display: flex;
     flex-direction: column;
     /* background-color: #232322; */
