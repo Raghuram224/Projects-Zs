@@ -11,7 +11,7 @@
     }
     .hometxt{
         width: 100%;
-        border: 3px solid black;
+        /* border: 3px solid black; */
     }
     .flanding{
         font-size: 1.5em;
@@ -30,6 +30,13 @@
         box-shadow: 2px 2px 30px rgba(0,0,0,0.15);
     
     }
+
+   .fadefont{
+    font-size: 1.7em;
+   }
+   .fontpara{
+    font-size: 1.5em;
+   }
 }
 
     
