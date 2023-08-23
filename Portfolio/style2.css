@@ -1,0 +1,36 @@
+@media screen and (min-width:481px){
+   
+    .header{
+        margin-top: 20px;
+    }
+    .nav-img>img{
+        width: 30px;
+        margin-bottom: 5px;
+        text-align: center;
+        
+    }
+    .hometxt{
+        width: 100%;
+        border: 3px solid black;
+    }
+    .flanding{
+        font-size: 1.5em;
+    }
+    ul>li{
+        font-size: 1.5em;
+    }
+    .micons >a>img{
+        height: 30px;
+        width: 30px;
+    }
+
+    .details >img{
+        width: 40%;
+        border-radius: 50%;
+        box-shadow: 2px 2px 30px rgba(0,0,0,0.15);
+    
+    }
+}
+
+    
+

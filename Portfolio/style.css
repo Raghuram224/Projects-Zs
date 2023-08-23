@@ -1,3 +1,6 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Barriecito&family=Prompt:wght@100;400&family=Quicksand:wght@300;400;500;600;700&family=Rajdhani:wght@300&family=Tilt+Prism&display=swap');
 *{
     padding: 0;
     margin: 0;
@@ -58,9 +61,7 @@ html,body{
     /* margin-top: 100%; */
     
 }
-.header{
-    /* border: 3px solid black; */
-}
+
 .nav-name{
     margin-top: 10px;
     display: flex;
@@ -70,6 +71,8 @@ html,body{
     /* justify-content: center; */
     /* justify-content: space-around; */
     margin-bottom: 10px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 100;
 }
 .nav-name h2{
     padding-left: 1rem;
@@ -82,6 +85,9 @@ html,body{
     margin-bottom: 5px;
     text-align: center;
     
+}
+ul>li{
+    font-size: 1.1em;
 }
 .nav-bar{
      width: 100%;
@@ -151,16 +157,19 @@ svg{
     padding: 1em;
   
 }
-    
-h1{
-    font-weight: 80px;
+.flanding{
+    font-family: 'Prompt', sans-serif;
+    font-size: 1.3em;
+}    
+.fonthead{
+    font-weight: 400;
     font-size: 2em;
-    padding-bottom: 5px;
+    font-family: 'Prompt', sans-serif;
 }
     
 .int{
     font-size: 1em;
-    font-weight: 10;
+    font-weight: 100;
 }
 .details{
     display: flex;
@@ -186,17 +195,18 @@ h1{
     /* color: rgba(0,0, 0, 0.5); */
     margin-top: 5px;
 }
-.details >h3{
+.fadefont{
     color: rgba(0,0, 0, 0.5);
     margin-top: 5px;
     /* color: white; */
 }
-.details >p{
+.fontpara{
     padding: 20px;
     font-size: 1.35em;
     color: rgba(0,0, 0, 0.5);
     text-align: justify;
     color: rgb(255, 255, 255,0.);
+
 }
 .box{
     display: flex;
@@ -296,8 +306,7 @@ h1{
     transition: 0.5s;
 }
 .reviews{
-    margin:16px ;
-  
+    margin:16px ;  
     position: relative;
     padding-bottom: 30px;
     overflow: hidden;
@@ -455,3 +464,5 @@ footer{
     padding: 20px;
     text-align: center;
 }
+
+
