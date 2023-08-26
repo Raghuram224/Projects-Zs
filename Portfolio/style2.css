@@ -22,9 +22,7 @@
     ul>li{
         font-size: 1.5em;
     }
-    .About{
-        width: 80%
-    }
+    
     .micons >a>img{
         height: 30px;
         width: 30px;
@@ -133,5 +131,22 @@
     
 }
 
-    
-
+@media screen and (min-width:769px){
+    .header,.nav-name{
+      display: none;
+    }
+    .lap-nav-bar{
+        display: block;
+        /* display: flex; */
+        /* border: 3px solid black; */
+    }
+    .lap-nav-bar ul {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        list-style: none;
+    }
+    .lap-nav-bar ul li{
+        margin: 1em 2em;
+    }
+}

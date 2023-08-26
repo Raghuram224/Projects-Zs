@@ -34,6 +34,10 @@ html,body{
     background-repeat: no-repeat;
 
 }
+.lap-nav-bar{
+    /* visibility: hidden; */
+    display: none;
+}
 .nav-bar li{
     transform:translatey(-100%);
     opacity:0;
@@ -91,20 +95,26 @@ html,body{
     
 }
 
-.nav-img:hover .nav-img>img{
+ul>li>a>img{
+    transition: 0.3s;
+}
+.nav-txt{
+    font-size: 0.8em;
+}
+.nav-img:hover img{
     transform: scale(1.5);
-    transition: 0.5s;
+    
 }
 .micons-img:hover img{
     transform: scale(1.5);
-    transition: 0.5s;
+    /* transition: 0.5s; */
 
 }
-li:hover a{
+/* li:hover a{
     transform: scale(1.6);
     
 
-}
+} */
 .nav-bar{
      width: 100%;
      /* margin-top: -20%; */
@@ -187,7 +197,7 @@ svg{
     padding: 20px;
     font-size: 1.35em;
     color: rgba(0,0, 0, 0.5);
-    text-align: justify;
+    text-align: center;
     color: rgb(255, 255, 255,0.);
     /* font-family: 'Quicksand', sans-serif; */
     font-family: 'Noto Sans Georgian', sans-serif;
@@ -205,8 +215,8 @@ svg{
     border-radius: 20px;
     width: 90%;
     margin: auto;
-    padding-bottom: 10px;
-    padding-top: 15px;
+    padding-bottom: 1.5em;
+    padding-top: 1.5em;
     /* background-color: ; */
     
 
@@ -276,10 +286,12 @@ svg{
 
 .box >p{
     font-size: 1em;
+    padding: 0 0.5em;
 }
 .box>h2{
     font-size: 1.2em;
     font-family: 'Quicksand', sans-serif;
+    padding: 0 0.5em;
 }
 .plist{
     /* border: 3px solid black; */
@@ -308,8 +320,8 @@ svg{
 .projects >h1{
     text-align: center;       
     /* color: white; */
-    padding-top: 10%;
-    margin-bottom: 60px;
+    padding-top: 10px;
+    margin-bottom: 20px;
 }
 .projects{
     background-color: white;
@@ -489,12 +501,12 @@ svg{
     text-align: center;
 }
 .form > div{
-    width: 80%;
+    width: 90%;
     
 }
 .form>textarea{
     display:block;
-    width: 80%;
+    width: 90%;
     /* margin-top: 10px; */
 
 }
@@ -502,7 +514,7 @@ svg{
     padding-left: 10px;
     padding-top: 10px;
     font-size: 1.2rem;
-    font-family: 'Q';
+    
 }
 
 
