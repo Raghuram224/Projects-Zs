@@ -19,6 +19,7 @@ html,body{
     height: 100vh;
     overflow: hidden;
     background-image: linear-gradient(360deg, rgba(228,244,251,1) ,rgba(213,225,234,1));
+    overflow: hidden;
         
 
 }
@@ -592,6 +593,7 @@ footer >*{
     width: 100%;
     background-color: rgba(213,225,234,1);
     padding: 2em;
+    overflow: hidden;
 }
 .projects{
     background-color:rgba(228,244,251,0.7) ;
@@ -600,5 +602,6 @@ footer >*{
 .bgblue{
     width: 100%;
     background-color:rgba(228,244,251,0.7) ;
+    overflow: hidden;
     /* border: 2px solid black; */
 }
