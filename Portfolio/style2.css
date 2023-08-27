@@ -131,7 +131,7 @@
     
 }
 
-@media screen and (min-width:769px){
+@media screen and (min-width:825px){
     .header,.nav-name{
       display: none;
     }
@@ -252,8 +252,8 @@
         margin-bottom: 2em;
     }
     .form{
-        width: 50%;
-        border: 3px solid black;       
+        width: 40%;
+        /* border: 3px solid black;        */
         flex-direction: row;
     }
     .felemnts{

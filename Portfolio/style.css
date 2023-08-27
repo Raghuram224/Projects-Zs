@@ -25,7 +25,11 @@ html,body{
 
 .landing >img{
     width: 100%;
-    margin-top: 10%;
+    /* border: 3px solid black; */
+    /* margin-top: 10%; */
+}
+.rttxt{
+    margin: 0;
 }
 .vector{
 
@@ -136,7 +140,7 @@ ul>li>a>img{
 svg{
      width:100px;
      height: 40px;
-     padding-left: 1rem;;
+     padding-left: 1em;
    
 }
 #clc{
@@ -498,6 +502,7 @@ input[type=radio].rbtn{
     align-items: center;
     flex-wrap: wrap;
     margin: 0 auto;
+    /* border: 2px solid black; */
    
   
 }
@@ -538,13 +543,17 @@ input[type=radio].rbtn{
     
 }
 .btn{
-    padding: 10px;
-    background-color: #232322;
-    color: #017DEC;
-    border-radius: 15px;
-    margin:10% 35%;    
-    width: 100px;
-    font-size: 1.1rem;
+    padding: 1em;
+    background-color: #017DEC;
+    color: white;
+    border-radius: 20px;
+    text-align: center;    
+    width: 150px;
+    font-size: 1.2em;
+    margin: 1.5em ;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+    /* margin-right: 2em; */
     
 }
 
@@ -554,6 +563,22 @@ footer{
     background-color: #017DEC;
     padding: 1.1em;
     text-align: center;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: justify;
+    
+}
+footer >*{
+    padding-bottom: 0.5em;
+}
+.fname{
+    font-style: bold;
+    font-weight: 800;
 }
 .brdr{
     border-radius: 5px;
