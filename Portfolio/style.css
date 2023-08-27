@@ -12,8 +12,11 @@
 }
 html,body{
     scroll-behavior: smooth;
+    
 }
-
+a{
+  text-decoration: none;  
+}
 .home {
     
     height: 100vh;
@@ -40,6 +43,9 @@ html,body{
     background-size: contain;
     background-repeat: no-repeat;
 
+}
+nav{
+    font-family: 'Quicksand', sans-serif;
 }
 .lap-nav-bar{
     /* visibility: hidden; */
@@ -324,6 +330,7 @@ svg{
     width: 90%;
     margin: 5%;
     position: relative;
+    box-sizing: border-box;
 }
 .projects >h1{
     text-align: center;       
@@ -335,9 +342,11 @@ svg{
     background-color: white;
     overflow: hidden;
     text-align: center;
+    box-sizing: border-box;
 }
 
 .hver{
+    box-sizing: border-box;
     width: 100%;
     height: 100%;
     position: absolute;  
@@ -356,16 +365,18 @@ svg{
 }
 
 .hver >p{
-    margin-bottom: 5%;
+    margin-bottom: 0.5em;
     color: black;
+    padding: 1em;
+    font-size: 1em;
 
 }
 .hver >a{
     background-color:rgba(213,225,234,1);
-    padding: 0.8em 1em;
+    padding: 0.8em 0.5em;
     border-radius: 30px;
     color: black;
-    font-size: 1em;
+    font-size: 0.8em;
 }
 .pts:hover .hver{
     opacity: 1;
