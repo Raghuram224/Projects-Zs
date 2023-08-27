@@ -18,7 +18,7 @@ html,body{
     
     height: 100vh;
     overflow: hidden;
-   
+    background-image: linear-gradient(360deg, rgba(108, 120, 120, 0) ,rgba(156, 164, 156, 0.377));
         
 
 }
@@ -216,8 +216,11 @@ svg{
     width: 90%;
     margin: auto;
     padding-bottom: 1.5em;
-    padding-top: 1.5em;
-    /* background-color: ; */
+    padding-top: 2em;
+    background-color:white;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    
     
 
 }
@@ -312,7 +315,7 @@ svg{
     display: flex;
     justify-content: center;
     justify-content: center;
-    border: 5px solid #017DEC;
+    border: 3px solid rgba(230, 230, 230, 1);
     width: 90%;
     margin: 5%;
     position: relative;
@@ -334,13 +337,14 @@ svg{
     height: 100%;
     position: absolute;  
     /* background-color: #232322; */
-    background-color: black;
+    background-color:rgba(230,230, 230, 1);
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
     font-size: 1.1em;
     opacity: 0;
+  
     /* transition: 0.5s; */
     
 
@@ -348,7 +352,7 @@ svg{
 
 .hver >p{
     margin-bottom: 5%;
-    color: white;
+    color: black;
 
 }
 .hver >a{
@@ -398,10 +402,11 @@ svg{
     
     left: 45%;    
     margin-left: 10px;
+    margin-right: 50px; 
     
 }
 .reviews input:nth-child(4){    
-    left: 55%;
+    left: 57%;
       
     /* margin-left: 8px; */
     /* margin-right: 8px; */
@@ -418,6 +423,10 @@ svg{
 }
 .reviews input:nth-child(4):checked ~.cards{
     transform: translate(-66.6%);
+    
+}
+input[type=radio].rbtn{
+    accent-color: grey;
     
 }
 .cards{
