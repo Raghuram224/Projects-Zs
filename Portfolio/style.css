@@ -18,19 +18,21 @@ html,body{
     
     height: 100vh;
     overflow: hidden;
-    background-image: linear-gradient(360deg, rgba(108, 120, 120, 0) ,rgba(156, 164, 156, 0.377));
+    background-image: linear-gradient(360deg, rgba(228,244,251,1) ,rgba(213,225,234,1));
         
 
 }
 
 .landing >img{
-    width: 100%;
-    /* border: 3px solid black; */
-    /* margin-top: 10%; */
+    display: block;
+    width: 90%;
+    height: 60vh;
+    margin: 0 1em;
+    margin: 0 auto;
+ 
+    margin-bottom: 4em;
 }
-.rttxt{
-    margin: 0;
-}
+
 .vector{
 
     background-position: center;
@@ -162,7 +164,7 @@ svg{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 50px;
+    margin-top: -7em;
     /* border: 3px solid black;   */
 }  
 
@@ -198,14 +200,12 @@ svg{
     font-family: 'Quicksand', sans-serif;
 }
 .fontpara{
-    padding: 20px;
-    font-size: 1.35em;
-    color: rgba(0,0, 0, 0.5);
-    text-align: center;
-    color: rgb(255, 255, 255,0.);
-    /* font-family: 'Quicksand', sans-serif; */
+    padding: 1em;
+    font-size: 1.3em;
+   
+    text-align: center;    
     font-family: 'Noto Sans Georgian', sans-serif;
-    font-weight: 400;
+    
 
 }
     
@@ -341,7 +341,7 @@ svg{
     height: 100%;
     position: absolute;  
     /* background-color: #232322; */
-    background-color:rgba(230,230, 230, 1);
+    background-color:white;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -360,10 +360,10 @@ svg{
 
 }
 .hver >a{
-    background-color: #017DEC;
+    background-color:rgba(213,225,234,1);
     padding: 0.8em 1em;
     border-radius: 30px;
-    color: white;
+    color: black;
     font-size: 1em;
 }
 .pts:hover .hver{
@@ -475,9 +475,11 @@ input[type=radio].rbtn{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 80px;
-    margin-bottom: 80px;
+    margin-top: 5em;
+    margin-bottom: 5em;
     text-align: center;
+    padding-top: 2.5em;
+    padding-bottom: 2.5em;
 }
 .cnt{
     display: flex;
@@ -544,7 +546,7 @@ input[type=radio].rbtn{
 }
 .btn{
     padding: 1em;
-    background-color: #017DEC;
+    background-color: rgba(0,0, 0, 0.5);
     color: white;
     border-radius: 20px;
     text-align: center;    
@@ -563,7 +565,7 @@ footer{
     background-color: #017DEC;
     padding: 1.1em;
     text-align: center;
-    color: white;
+    color: black;
     font-family: 'Quicksand', sans-serif;
     display: flex;
     flex-direction: column;
@@ -588,6 +590,15 @@ footer >*{
 /* section background colors */
 .bggrey{
     width: 100%;
-    background-color: rgba(230, 230, 230, 1);
+    background-color: rgba(213,225,234,1);
     padding: 2em;
+}
+.projects{
+    background-color:rgba(228,244,251,0.7) ;
+
+}
+.bgblue{
+    width: 100%;
+    background-color:rgba(228,244,251,0.7) ;
+    /* border: 2px solid black; */
 }
